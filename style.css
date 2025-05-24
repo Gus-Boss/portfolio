@@ -1,0 +1,57 @@
+.navbutton {
+    
+    padding-inline: 28px;
+    border-right: 6px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav {
+    background-color: #129936;
+    padding: 25px;
+    padding-right: 28;
+    display: flex;
+    justify-content: end;
+}
+body {
+    font-family: 'Poppins';
+    margin: 0px;
+}
+.head {
+    display: flex;
+    padding: 30px 25px;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    .circle {
+        color: white;
+        background-color: black;
+        border-radius: 60px;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;     /* Centraliza verticalmente */
+        justify-content: center; 
+    }
+}
+.content {
+    display: flex;
+    align-items: start;
+    padding: 20px 224px;
+    gap: 200px;
+    justify-content: center;
+    h1 {
+        padding-left: 8px;
+        border-left: 6px solid;
+        margin-top: 20px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+.foto {
+    width: 350px;
+    height: auto;
+}
+
