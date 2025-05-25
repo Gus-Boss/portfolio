@@ -14,13 +14,13 @@
   </head>
   <body>
     <nav>
-      <div class="navbutton">Sobre</div>
-      <div class="navbutton">Portifólio</div>
-      <div class="navbutton">Skills</div>
-      <div class="navbutton" style="border: none">Contato</div>
+      <div class="navbutton"><a href="#secao1">Sobre</a></div>
+      <div class="navbutton"><a href="#secao2">Portifólio</a></div>
+      <div class="navbutton"><a href="#secao3">Skills</a></div>
+      <div class="navbutton" style="border: none"><a href="#secao4">Contato</a></div>
     </nav>
     <div>
-      <div class="head">
+      <div class="head" id="secao1">
         <div class="circle">S</div>
         <div>Sobre</div>
       </div>
@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="portifolio-content">
+    <div class="portifolio-content" id="secao2">
       <div class="buttons">
           <img src="images/assets/seta.png" alt="seta para direita"class="seta-e" onclick="scroll(0)">
           <img src="images/assets/seta.png" alt="seta para direita"class="seta-d" onclick="scroll(1)">
@@ -122,7 +122,7 @@
       <img class="blur2" src="images/portifolio/blur.png" />
     </div>
 
-    <div class="head">
+    <div class="head"  id="secao3">
       <div class="circle">S</div>
       <div>Skills</div>
     </div>
@@ -151,31 +151,42 @@
 
     <div class="contato-content">
       
-      <div class="head">
+      <div class="head" id="secao4">
         <div class="circle">C</div>
         <div style="z-index: 10;">Contato</div>
       </div>
 
       <div class="dados-content">
-        <div class="local"></div>
-        <div class="contato">
-          <img src="" alt="local">
+        <div class="local">
+          <img src="images/assets/local.png" alt="local">
           <h1>SERGIPE</h1>
-          <p>ARACAJU</p>
-          <p>TOBIAS BARRETO</p>
+          <div>
+            <div class="aju">ARACAJU </div>
+            <p>TOBIAS BARRETO</p>
+          </div>
+        </div>
           
+        <div class="contato">
+          <div class="dados">
+            <p class="title">Número:</p>
+            <p>+55 (79) 9 9861-2667</p>
+            <p class="title">E-mail pessoal</p>
+            <p>gustavocim2015@gmail.com</p>
+          </div>
           <div class="linkedin">
-
+            <img src="images/assets/linkedin.png" alt="linkedin">
+            <p1>linkedin</p1>
+            <p class="https">https://www.linkedin.com/in/gustavo-henrique-78178b1aa/</p>
           </div>
         </div>
       </div>
       
       <img class="blur-black" src="images/portifolio/blur-black.png" />
       <img class="blur" src="images/portifolio/blur.png" />
-      <img class="blur2" src="images/portifolio/blur.png" />
-
-
     </div>
+    <footer>
+      <p>Gustavo Henrique Ramos dos Reis © 2025. Todos os direitos reservados</p>
+    </footer>
 
 
     <script src="script.js"></script>
