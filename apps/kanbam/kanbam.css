@@ -31,9 +31,10 @@ h1 {
   display: flex;
   gap: 16px;
   padding: 16px;
-  background-color: #f0f0f0;
+  margin-top: 16px;
+  background-color: #96d7d7;
+  border-radius: 8px;
   height: 400px;
-  overflow-x: auto;
 }
 
 .column {
