@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifolio</title>
+    <title>Kanbam</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,27 +15,32 @@
   <body>
     <div class="head">
       <h1>KAMBAM PROJECT</h1>
-      <div class="enter">
+      <div class="add">
         <label for="task-name">Crie uma nova task</label><br />
-        <input type="text" #task-name placeholder="Escreva o nome da task" />
-        <img src="./images/enter-key.png" style="height: 20px; width: 20px" />
+        <input
+          type="text"
+          id="task-name"
+          placeholder="Escreva o nome da task"
+        />
+        <button onclick="adicionar(document.getElementById('task-name').value)">
+          ADICIONAR
+        </button>
       </div>
     </div>
     <div class="quadro">
       <div id="step1" class="column">
-        <div class="titulo">Etapa 1</div>
+        <div class="titulo" style="background-color: yellow">Em Aberto</div>
       </div>
       <div id="step2" class="column">
-        <div class="titulo">Etapa 2</div>
+        <div class="titulo" style="background-color: rgb(109, 109, 218)">
+          Revisão
+        </div>
       </div>
       <div id="step3" class="column">
-        <div class="titulo">Etapa 3</div>
+        <div class="titulo" style="background-color: orange">Em andamento</div>
       </div>
       <div id="step4" class="column">
-        <div class="titulo">Etapa 4</div>
-      </div>
-      <div id="step5" class="column">
-        <div class="titulo">Etapa 5</div>
+        <div class="titulo" style="background-color: green">Entregue</div>
       </div>
     </div>
 
